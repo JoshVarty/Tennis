@@ -60,8 +60,13 @@ pip install .
 
 ## Results
 
-TODO
+After approximately two hours of training (3,900 episodes) on my local machine, the agent achieved a score greater than `0.5`. Its progress is shown below:
 
+![https://i.imgur.com/Qyb4dtJ.png](https://i.imgur.com/Qyb4dtJ.png)
+
+A visualization of the agent in action:
+
+![https://i.imgur.com/Yk9IJux.gif](https://i.imgur.com/Yk9IJux.gif)
 
 ## Notes
  - Only tested on Ubuntu 18.04
