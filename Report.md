@@ -80,7 +80,9 @@ After approximately two hours of training (3,900 episodes) on my local machine, 
 
 ![https://i.imgur.com/Qyb4dtJ.png](https://i.imgur.com/Qyb4dtJ.png)
 
+A visualization of the agent in action:
 
+![https://i.imgur.com/Yk9IJux.gif](https://i.imgur.com/Yk9IJux.gif)
 
 
 
