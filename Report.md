@@ -23,6 +23,8 @@ After calculating critic loss, we also calculate actor loss using the `actor_loc
 
 After computing the losses and optimizing, we apply a "soft update" to the target networks. This soft update is governed by a `tau` parameter (`1e-3`).
 
+One important thing to note is that although we are training the critic, we do not need to use its weights at test time. We simply ask the actor networks to tell us what actions to take. For this reason we don't save the critic weights to disk after reaching an average score of `0.5` over 100 episodes.
+
 ## Hyperparameters
 
  - Buffer Size: `1e6`
