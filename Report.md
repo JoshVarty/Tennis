@@ -84,5 +84,12 @@ A visualization of the agent in action:
 
 ![https://i.imgur.com/Yk9IJux.gif](https://i.imgur.com/Yk9IJux.gif)
 
+## Future Work
 
+This algorithm seemed to work reasonably well on my first try so I did not have to conduct a grid search for hyperparameters. Other students seem to have been able to solve this task in fewer episodes than my solution so it is clear to me that I have not chosen the optimal set of hyperparameters. Other sets of hyperparameters might have not only let me train faster, but achieve a higher score overall (beyond 0.5).
 
+Another optimization that was weighing on my mind would be to prioritize experiences from the replay buffer. I would like to have prioritized learning from experiences near points where the episode ended (because the ball went out of bounds or hit the floor). My hope would be that learning about these failure cases would help my agent learn more efficiently.
+
+Some students said that they managed to get the project working with Proximal Policy Optimization. I tried this approach briefly myself (using my solution for Project 2) but had no success. If I could find an example project it might be worth trying to understand why their approach succeeded and mine failed on this project.
+
+Try this approach on other environments. MADDPG seemed reasonably successful on this enviroment, perhaps it will also be successful on the Soccer environment? It seems like it would be worth running a few experiments to see how training progresses.
